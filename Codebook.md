@@ -33,21 +33,21 @@ You should create one R script called run_analysis.R that does the following.
 File with R code "run_analysis.R" performs the following 5 Parts per the above Requirements:   
 1. Merging the training and the test sets to create one data set.   
    1. Reading files    
-      1.1  Read training data into tables   
-      1.2  Read test data into tables   
-      1.3  Read feature as vector   
-      1.4  Read activity labels   
+      * Read training data into tables   
+      * Read test data into tables   
+      * Read feature as vector   
+      * Read activity labels   
    1. Assigning column names   
    1. Merging all data in one set   
 1. Extract only the measurements on the mean and standard deviation for each measurement   
-   1.1 Read column names  
-   1.2 Create vector for defining ID, mean and standard deviation   
-   1.3 Making nessesary subset from All   
-3. Use descriptive activity names to name the activities in the data set   
-4. Label the data set with descriptive variable names   
-5. Creating a second, independent tidy data set with the average of each variable for each activity and each subject   
-  5.1 Making second tidy data set   
-  5.2 Writing second tidy data set in txt file   
+   1. Read column names  
+   1. Create vector for defining ID, mean and standard deviation   
+   1. Making nessesary subset from All   
+1. Use descriptive activity names to name the activities in the data set   
+1. Label the data set with descriptive variable names   
+1. Creating a second, independent tidy data set with the average of each variable for each activity and each subject   
+   1. Making second tidy data set   
+   1. Writing second tidy data set in txt file   
 
 ## About variables:   
 * `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` contain the data from the downloaded files.
