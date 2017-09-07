@@ -37,12 +37,12 @@ File with R code "run_analysis.R" performs the following 5 Parts per the above R
       1.2  Read test data into tables   
       1.3  Read feature as vector   
       1.4  Read activity labels   
-  1. Assigning column names   
-  1. Merging all data in one set   
-2. Extract only the measurements on the mean and standard deviation for each measurement   
-  2.1 Read column names  
-  2.2 Create vector for defining ID, mean and standard deviation   
-  2.3 Making nessesary subset from All   
+   1. Assigning column names   
+   1. Merging all data in one set   
+1. Extract only the measurements on the mean and standard deviation for each measurement   
+   1.1 Read column names  
+   1.2 Create vector for defining ID, mean and standard deviation   
+   1.3 Making nessesary subset from All   
 3. Use descriptive activity names to name the activities in the data set   
 4. Label the data set with descriptive variable names   
 5. Creating a second, independent tidy data set with the average of each variable for each activity and each subject   
