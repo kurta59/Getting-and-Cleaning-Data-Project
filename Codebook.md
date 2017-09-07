@@ -33,10 +33,10 @@ You should create one R script called run_analysis.R that does the following.
 File with R code "run_analysis.R" performs the following 5 Parts per the above Requirements:   
 1. Merging the training and the test sets to create one data set.   
   1.1 Reading files    
-    1.1.2 Read training data into tables   
-    1.1.2 Read test data into tables   
-    1. Read feature as vector   
-    1. Read activity labels   
+    1.1. Read training data into tables   
+    1.1. Read test data into tables   
+    1.1. Read feature as vector   
+    1.1. Read activity labels   
   1.2 Assigning column names   
   1.3 Merging all data in one set   
 2. Extracting only the measurements on the mean and standard deviation for each measurement   
