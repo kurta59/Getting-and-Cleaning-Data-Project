@@ -49,3 +49,15 @@ File with R code "run_analysis.R" performs the following 5 Parts per the above R
    1. Making second tidy data set   
    1. Writing second tidy data set in txt file   
 
+## Variables 
+Vars: to read data into tables and to merge tables into one data set 
+`x_train` `y_train` `subject_train` `x_test` `y_test` `subject_test` `mrg_train` `mrg_test` `setAll`
+
+Vars to set column names, extract mean and std dev, create subset
+`colNames` `mean_and_std` `subsetMeanAndStd`
+
+Vars to table with subsetMeanAndStd with activity labels 
+`subsetActivityNames`
+
+Vars table wih final tidy data set, ready for output
+`secTidySet`
